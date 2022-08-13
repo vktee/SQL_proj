@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Foo, Bar, Baz, Blah, App } from './App';
+import { Foo, Bar, Baz, App } from './App';
+import Blah from './components/Test1';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

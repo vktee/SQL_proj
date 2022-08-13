@@ -1,4 +1,5 @@
 import { Link, Outlet } from 'react-router-dom';
+import React from 'react';
 
 function Nav() {
   return (
@@ -55,7 +56,7 @@ export function App() {
   return (
     <div>
       <Nav />
-      <h1>Welcome to my App</h1>
+      <h1>InfoArk</h1>
       <div>
         <Outlet />
       </div>
