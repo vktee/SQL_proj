@@ -54,9 +54,9 @@ export function Blah() {
 
 export function App() {
   return (
-    <div>
+    <div className='App'>
       <Nav />
-      <h1>InfoArk</h1>
+      <h1 className='header'>Leo.io</h1>
       <div>
         <Outlet />
       </div>

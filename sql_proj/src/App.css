@@ -1,3 +1,25 @@
-.wrapper {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   padding: 20px;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  font-weight: bold;
+  font-size: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #FFFFFF;
+  border-radius: 25px;
+  max-width: 420px;
 }
